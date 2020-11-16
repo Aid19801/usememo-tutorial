@@ -45,3 +45,7 @@ footer {
   justify-content: center;
   /* padding-right: 40px; */
 }
+
+li {
+  transition: 0.4s;
+}

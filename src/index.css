@@ -22,3 +22,26 @@ code {
 p {
   margin: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+li {
+  margin: 0;
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 30px;
+  border: 0;
+  width: 260px;
+  height: 30px;
+  background: orange;
+  border-radius: 25px;
+
+}
