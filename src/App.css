@@ -1,18 +1,47 @@
 .App {
   height: 100%;
   display: flex;
+  position: relative;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
   background: linear-gradient(rgb(236, 169, 45), rgb(94, 61, 0));
   color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 h1 {
   background: grey;
   transform: rotate(2deg);
   padding: 10px;
   color: white;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* border: 1px solid white; */
+  background: grey;
+  display: flex;
+  justify-content: flex-end;
+  /* padding-right: 40px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section {
+  margin-top: 100px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid white;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  /* padding-right: 40px; */
 }
